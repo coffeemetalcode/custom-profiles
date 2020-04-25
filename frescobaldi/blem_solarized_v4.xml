@@ -1,0 +1,67 @@
+<frescobaldi-theme name="blem_solarized_v4">
+  <!--
+  Created by Frescobaldi 3.0.0.
+-->
+  <font fontFamily="Noto Sans" fontSize="14.0" />
+  <baseColors>
+    <text color="#e1e1e1" />
+    <background color="#002832" />
+    <selectiontext color="#c1c1c1" />
+    <selectionbackground color="#11accf" />
+    <current color="#0c5f74" />
+    <mark color="#dddd6e" />
+    <error color="#910000" />
+    <search color="#c05800" />
+    <match color="#00d9ff" />
+    <paper color="#fffeeb" />
+    <musichighlight color="#f50000" />
+  </baseColors>
+  <defaultStyles>
+    <function bold="True" italic="False" textColor="#d87237" underline="False" />
+    <comment bold="False" italic="True" textColor="#9dbe98" underline="False" />
+    <keyword bold="True" italic="False" textColor="#a0b3b3" underline="False" />
+    <escape textColor="#008080" />
+    <string bold="False" italic="False" textColor="#dda600" underline="False" />
+    <error backgroundColor="#aa0000" bold="False" italic="False" textColor="#ffffff" underline="True" underlineColor="#f4ff22" />
+    <value bold="False" italic="False" textColor="#d0d066" underline="False" />
+    <variable bold="False" italic="False" textColor="#a87db8" underline="False" />
+  </defaultStyles>
+  <allStyles>
+    <lilypond>
+      <command textColor="#df7114" />
+      <pitch bold="False" italic="False" textColor="#e8e8e8" underline="False" />
+      <octave bold="False" italic="False" textColor="#e8e8e8" underline="False" />
+      <duration bold="False" italic="False" textColor="#e8e8e8" underline="False" />
+      <dynamic bold="True" italic="False" textColor="#e3aa00" underline="False" />
+      <check bold="True" italic="False" textColor="#e1e16f" underline="False" />
+      <articulation bold="True" italic="False" textColor="#c78f00" underline="False" />
+      <fingering bold="False" italic="False" textColor="#b58900" underline="False" />
+      <stringnumber bold="False" italic="False" textColor="#b58900" underline="False" />
+      <slur bold="True" italic="False" textColor="#28aa9b" underline="False" />
+      <beam bold="True" italic="False" textColor="#cb8f87" underline="False" />
+      <markup bold="False" textColor="#8f9f00" />
+      <lyricmode textColor="#48d86a" />
+      <lyrictext bold="False" italic="False" textColor="#91da00" underline="False" />
+      <specifier textColor="#b58900" />
+      <usercommand textColor="#00d092" />
+      <delimiter textColor="#e8efef" />
+      <context bold="True" italic="False" textColor="#4eb7c7" underline="False" />
+      <grob bold="False" italic="False" textColor="#e29b79" underline="False" />
+      <property textColor="#53ac00" />
+      <variable textColor="#e78787" />
+      <uservariable bold="True" italic="False" textColor="#a0a0f0" underline="False" />
+      <value textColor="#eeee00" />
+      <comment bold="False" textColor="#6d8b6f" underline="False" />
+    </lilypond>
+    <scheme>
+      <scheme bold="False" italic="False" textColor="#46d4d4" underline="False" />
+      <comment bold="False" textColor="#647961" underline="False" />
+      <lilypond bold="True" italic="False" textColor="#93a1a1" underline="False" />
+      <keyword bold="True" textColor="#d3d3d3" />
+      <function bold="False" italic="False" textColor="#2da3c3" underline="False" />
+      <variable bold="False" italic="False" textColor="#d6d66a" underline="False" />
+      <constant bold="False" italic="False" textColor="#d33682" underline="False" />
+      <delimiter bold="True" italic="False" textColor="#859900" underline="False" />
+    </scheme>
+  </allStyles>
+</frescobaldi-theme>
