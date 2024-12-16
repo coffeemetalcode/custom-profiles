@@ -1,0 +1,113 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontFamily": "'Fira Code', 'ubuntu mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "material-icon-theme.folders.color": "#66b7da",
+  "workbench.editorAssociations": {
+      "*.ods": "default"
+  },
+  "workbench.colorCustomizations": {
+      "[One Dark Pro Darker]": {
+          "editor.background": "#0d0d0d",
+          "sideBar.background": "#1a1a1a",
+          "activityBar.activeBackground": "#262626",
+          "tab.inactiveBackground": "#262626",
+          "terminal.background": "#0d0d0d"
+      },
+      "[One Dark Pro Darker really dark]": {
+          "editor.background": "#000000",
+          "sideBar.background": "#0d0d0d",
+          "activityBar.activeBackground": "#262626",
+          "tab.inactiveBackground": "#262626",
+          "terminal.background": "#000000"
+      }
+  },
+  "vscode-edge-devtools.mirrorEdits": true,
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.external.linuxExec": "/usr/bin/zsh",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "vscode-simpler-icons",
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+      "*": false,
+      "plaintext": true,
+      "markdown": false,
+      "scminput": false
+  },
+  "C_Cpp.default.compilerPath": "",
+  "better-comments.tags": [
+      
+      {
+          "tag": "!",
+          "color": "#FF2D00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+      },
+      {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+      },
+      {
+          "tag": "//",
+          "color": "#474747",
+          "strikethrough": true,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+      },
+      {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+      },
+      {
+          "tag": "*",
+          "color": "#98C379",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+      }
+  ],
+  "terminal.integrated.autoReplies": {},
+  "terminal.integrated.fontFamily": "'Fira Code Retina', 'ubuntu mono', 'monospace', monospace",
+  "terminal.integrated.fontWeight": 400,
+  "prettier.singleQuote": true,
+  "editor.detectIndentation": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.codeActionsOnSave": {}
+}
